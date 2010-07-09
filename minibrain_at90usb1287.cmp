@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20090216-final) date = Thu 08 Jul 2010 04:36:53 PM PDT
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Fri 09 Jul 2010 11:04:31 AM PDT
 
 BeginCmp
 TimeStamp = /4C351B9F;
@@ -78,6 +78,13 @@ IdModule  = SM0603_minibrain;
 EndCmp
 
 BeginCmp
+TimeStamp = /4C376358;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
 TimeStamp = /4C34FB6E;
 Reference = IC1;
 ValeurCmp = AT90USB128;
@@ -88,6 +95,13 @@ BeginCmp
 TimeStamp = /4C351B70;
 Reference = L1;
 ValeurCmp = FERRITE;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C376384;
+Reference = R1;
+ValeurCmp = R;
 IdModule  = SM0603_minibrain;
 EndCmp
 
