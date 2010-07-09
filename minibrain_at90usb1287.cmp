@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Thu 08 Jul 2010 04:36:53 PM PDT
+
+BeginCmp
+TimeStamp = /4C351B9F;
+Reference = C1;
+ValeurCmp = 0.01uF;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C35044A;
+Reference = C2;
+ValeurCmp = 18pF;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C350DA8;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C351B9A;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C350450;
+Reference = C5;
+ValeurCmp = 18pF;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C350DEF;
+Reference = C6;
+ValeurCmp = 1uF;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C351B98;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C350786;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C350788;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C35078A;
+Reference = C10;
+ValeurCmp = 0.22uF;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C365E6F;
+Reference = C11;
+ValeurCmp = 0.22uF;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C34FB6E;
+Reference = IC1;
+ValeurCmp = AT90USB128;
+IdModule  = QFN64_p11;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C351B70;
+Reference = L1;
+ValeurCmp = FERRITE;
+IdModule  = SM0603_minibrain;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C3501B0;
+Reference = U1;
+ValeurCmp = FX860PSV;
+IdModule  = header_fx860PSV;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C350414;
+Reference = X1;
+ValeurCmp = 16_MHZ;
+IdModule  = Crystal_6x3.3mm_ABM7;
+EndCmp
+
+EndListe

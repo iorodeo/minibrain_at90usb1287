@@ -1,0 +1,458 @@
+# EESchema Netlist Version 1.1 created  Thu 08 Jul 2010 07:33:40 PM PDT
+(
+ ( /4C365E6F $noname  C11 0.22uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4C351B9F $noname  C1 0.01uF {Lib=C}
+  (    1 N-000031 )
+  (    2 GND )
+ )
+ ( /4C351B9A $noname  C4 0.1uF {Lib=C}
+  (    1 /AVCC )
+  (    2 GND )
+ )
+ ( /4C351B98 $noname  C7 0.1uF {Lib=C}
+  (    1 N-000030 )
+  (    2 GND )
+ )
+ ( /4C351B70 $noname  L1 FERRITE {Lib=FERRITE}
+  (    1 /AVCC )
+  (    2 N-000030 )
+ )
+ ( /4C350DEF $noname  C6 1uF {Lib=C}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /4C350DA8 $noname  C3 0.1uF {Lib=C}
+  (    1 /UVCC )
+  (    2 GND )
+ )
+ ( /4C35078A $noname  C10 0.22uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4C350788 $noname  C9 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4C350786 $noname  C8 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4C350450 $noname  C5 18pF {Lib=C}
+  (    1 N-000028 )
+  (    2 GND )
+ )
+ ( /4C35044A $noname  C2 18pF {Lib=C}
+  (    1 N-000029 )
+  (    2 GND )
+ )
+ ( /4C350414 $noname  X1 16_MHZ {Lib=16_MHZ}
+  (    1 N-000029 )
+  (    2 N-000028 )
+ )
+ ( /4C3501B0 $noname  U1 FX860PSV {Lib=FX860PSV}
+  (    1 /PF5 )
+  (    2 /PF6 )
+  (    3 /PF7 )
+  (    4 GND )
+  (    5 VCC )
+  (    6 /PA0 )
+  (    7 /PA1 )
+  (    8 /PA2 )
+  (    9 /PA3 )
+  (   10 /PA4 )
+  (   11 /PA5 )
+  (   12 /PA6 )
+  (   13 /PA7 )
+  (   14 /PE2 )
+  (   15 /PC7 )
+  (   16 /PC6 )
+  (   17 /PC5 )
+  (   18 /PC4 )
+  (   19 /PC3 )
+  (   20 /PC2 )
+  (   21 /PC1 )
+  (   22 /PC0 )
+  (   23 /PE1 )
+  (   24 /PE0 )
+  (   25 /PD7 )
+  (   26 /PD6 )
+  (   27 /PD5 )
+  (   28 /PD4 )
+  (   29 /PD3 )
+  (   30 /PD2 )
+  (   31 /PD1 )
+  (   32 /PD0 )
+  (   33 GND )
+  (   34 VCC )
+  (   35 /RST )
+  (   36 /PE5 )
+  (   37 /PE4 )
+  (   38 /PB7 )
+  (   39 /PB6 )
+  (   40 /PB5 )
+  (   41 /PB4 )
+  (   42 /PB3 )
+  (   43 /PB2 )
+  (   44 /PB1 )
+  (   45 /PB0 )
+  (   46 /PE3 )
+  (   47 /VBUS )
+  (   48 GND )
+  (   49 /D+ )
+  (   50 /D- )
+  (   51 /UVCC )
+  (   52 /PE7 )
+  (   53 /PE6 )
+  (   54 /AVCC )
+  (   55 GND )
+  (   56 /PF0 )
+  (   57 /PF1 )
+  (   58 /PF2 )
+  (   59 /PF3 )
+  (   60 /PF4 )
+ )
+ ( /4C34FB6E $noname  IC1 AT90USB128 {Lib=AT90USB128}
+  (    1 /PE6 )
+  (    2 /PE7 )
+  (    3 /UVCC )
+  (    4 /D- )
+  (    5 /D+ )
+  (    6 GND )
+  (    7 N-000004 )
+  (    8 /VBUS )
+  (    9 /PE3 )
+  (   10 /PB0 )
+  (   11 /PB1 )
+  (   12 /PB2 )
+  (   13 /PB3 )
+  (   14 /PB4 )
+  (   15 /PB5 )
+  (   16 /PB6 )
+  (   17 /PB7 )
+  (   18 /PE4 )
+  (   19 /PE5 )
+  (   20 /RST )
+  (   21 VCC )
+  (   22 GND )
+  (   23 N-000029 )
+  (   24 N-000028 )
+  (   25 /PD0 )
+  (   26 /PD1 )
+  (   27 /PD2 )
+  (   28 /PD3 )
+  (   29 /PD4 )
+  (   30 /PD5 )
+  (   31 /PD6 )
+  (   32 /PD7 )
+  (   33 /PE0 )
+  (   34 /PE1 )
+  (   35 /PC0 )
+  (   36 /PC1 )
+  (   37 /PC2 )
+  (   38 /PC3 )
+  (   39 /PC4 )
+  (   40 /PC5 )
+  (   41 /PC6 )
+  (   42 /PC7 )
+  (   43 /PE2 )
+  (   44 /PA7 )
+  (   45 /PA6 )
+  (   46 /PA5 )
+  (   47 /PA4 )
+  (   48 /PA3 )
+  (   49 /PA2 )
+  (   50 /PA1 )
+  (   51 /PA0 )
+  (   52 VCC )
+  (   53 GND )
+  (   54 /PF7 )
+  (   55 /PF6 )
+  (   56 /PF5 )
+  (   57 /PF4 )
+  (   58 /PF3 )
+  (   59 /PF2 )
+  (   60 /PF1 )
+  (   61 /PF0 )
+  (   62 N-000031 )
+  (   63 GND )
+  (   64 N-000030 )
+  (   65 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/D+" "D+"
+ U1 49
+ IC1 5
+Net 2 "/PD2" "PD2"
+ U1 30
+ IC1 27
+Net 3 "/PE1" "PE1"
+ U1 23
+ IC1 34
+Net 4 "" ""
+ C6 1
+ IC1 7
+Net 5 "/PD0" "PD0"
+ U1 32
+ IC1 25
+Net 6 "/PE5" "PE5"
+ U1 36
+ IC1 19
+Net 7 "/PB7" "PB7"
+ U1 38
+ IC1 17
+Net 8 "/PB5" "PB5"
+ U1 40
+ IC1 15
+Net 9 "/PB3" "PB3"
+ U1 42
+ IC1 13
+Net 10 "/PE3" "PE3"
+ U1 46
+ IC1 9
+Net 11 "/D-" "D-"
+ U1 50
+ IC1 4
+Net 12 "/PE7" "PE7"
+ U1 52
+ IC1 2
+Net 13 "/PF0" "PF0"
+ U1 56
+ IC1 61
+Net 14 "/PF2" "PF2"
+ U1 58
+ IC1 59
+Net 15 "/PF4" "PF4"
+ U1 60
+ IC1 57
+Net 16 "/PD5" "PD5"
+ U1 27
+ IC1 30
+Net 17 "/PD7" "PD7"
+ U1 25
+ IC1 32
+Net 18 "/PC1" "PC1"
+ U1 21
+ IC1 36
+Net 19 "/PC3" "PC3"
+ U1 19
+ IC1 38
+Net 20 "/PC5" "PC5"
+ U1 17
+ IC1 40
+Net 21 "/PC7" "PC7"
+ U1 15
+ IC1 42
+Net 22 "/PA7" "PA7"
+ U1 13
+ IC1 44
+Net 23 "/PA5" "PA5"
+ U1 11
+ IC1 46
+Net 24 "/PA3" "PA3"
+ U1 9
+ IC1 48
+Net 25 "/PA1" "PA1"
+ U1 7
+ IC1 50
+Net 26 "/PF7" "PF7"
+ U1 3
+ IC1 54
+Net 27 "/PF5" "PF5"
+ U1 1
+ IC1 56
+Net 28 "" ""
+ C5 1
+ X1 2
+ IC1 24
+Net 29 "" ""
+ C2 1
+ X1 1
+ IC1 23
+Net 30 "" ""
+ C7 1
+ L1 2
+ IC1 64
+Net 31 "" ""
+ C1 1
+ IC1 62
+Net 32 "/PF6" "PF6"
+ U1 2
+ IC1 55
+Net 33 "/PA0" "PA0"
+ U1 6
+ IC1 51
+Net 34 "/PA4" "PA4"
+ U1 10
+ IC1 47
+Net 35 "/PA6" "PA6"
+ U1 12
+ IC1 45
+Net 36 "/PE2" "PE2"
+ U1 14
+ IC1 43
+Net 37 "/PC6" "PC6"
+ U1 16
+ IC1 41
+Net 38 "/PC4" "PC4"
+ U1 18
+ IC1 39
+Net 39 "/PC2" "PC2"
+ U1 20
+ IC1 37
+Net 40 "/PC0" "PC0"
+ U1 22
+ IC1 35
+Net 41 "/PD6" "PD6"
+ U1 26
+ IC1 31
+Net 42 "/PD4" "PD4"
+ U1 28
+ IC1 29
+Net 43 "/PF3" "PF3"
+ U1 59
+ IC1 58
+Net 44 "/PF1" "PF1"
+ U1 57
+ IC1 60
+Net 45 "/PE6" "PE6"
+ U1 53
+ IC1 1
+Net 46 "/UVCC" "UVCC"
+ C3 1
+ U1 51
+ IC1 3
+Net 47 "/PB0" "PB0"
+ U1 45
+ IC1 10
+Net 48 "/PB2" "PB2"
+ U1 43
+ IC1 12
+Net 49 "/PB4" "PB4"
+ U1 41
+ IC1 14
+Net 50 "/PB6" "PB6"
+ U1 39
+ IC1 16
+Net 51 "/PE4" "PE4"
+ U1 37
+ IC1 18
+Net 52 "/RST" "RST"
+ U1 35
+ IC1 20
+Net 53 "/PD1" "PD1"
+ U1 31
+ IC1 26
+Net 54 "/PA2" "PA2"
+ U1 8
+ IC1 49
+Net 55 "/PE0" "PE0"
+ U1 24
+ IC1 33
+Net 56 "/PD3" "PD3"
+ U1 29
+ IC1 28
+Net 57 "/VBUS" "VBUS"
+ U1 47
+ IC1 8
+Net 58 "/AVCC" "AVCC"
+ C4 1
+ L1 1
+ U1 54
+Net 59 "VCC" "VCC"
+ C11 1
+ C10 1
+ C9 1
+ C8 1
+ U1 34
+ U1 5
+ IC1 52
+ IC1 21
+Net 60 "/PB1" "PB1"
+ U1 44
+ IC1 11
+Net 61 "GND" "GND"
+ C11 2
+ C1 2
+ C4 2
+ C7 2
+ C6 2
+ C3 2
+ C10 2
+ C9 2
+ C8 2
+ C5 2
+ C2 2
+ U1 33
+ U1 48
+ U1 55
+ U1 4
+ IC1 6
+ IC1 22
+ IC1 53
+ IC1 63
+ IC1 65
+}
+#End

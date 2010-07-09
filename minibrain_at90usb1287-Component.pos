@@ -1,0 +1,18 @@
+### Module positions - created on Thu 08 Jul 2010 05:31:55 PM PDT ###
+### Printed by PcbNew version PCBnew (20090216-final)
+## Unit = inches, Angle = deg.
+## Side : Component
+# Ref    Val                  PosX       PosY        Rot     Side
+C1       0.01uF               6.4560     2.7280      90.0    Component
+C2       18pF                 6.4720     3.6980       0.0    Component
+C3       0.1uF                6.2520     2.8940     180.0    Component
+C4       0.1uF                6.3600     2.5140       0.0    Component
+C5       18pF                 6.6240     3.6980     180.0    Component
+C6       1uF                  6.2600     3.0000      90.0    Component
+C7       0.1uF                6.3600     2.7700     180.0    Component
+C8       0.1uF                6.4960     3.2740     270.0    Component
+C9       0.1uF                6.7920     2.6880      90.0    Component
+C10      0.22uF               6.7920     2.5600      90.0    Component
+C11      0.22uF               6.3860     3.3280     270.0    Component
+L1       FERRITE              6.3600     2.6060       0.0    Component
+## End
