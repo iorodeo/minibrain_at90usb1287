@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 09 Jul 2010 04:10:21 PM PDT
+EESchema Schematic File Version 2  date Sun 11 Jul 2010 04:25:45 PM PDT
 LIBS:power,/home/wbd/repos/iorodeo/minibrain_at90usb1287/libraries/minibrain,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./minibrain_at90usb1287.cache
 EELAYER 24  0
 EELAYER END
@@ -13,6 +13,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	10450 3350 10450 3200
+Wire Wire Line
+	10450 3200 9500 3200
+Connection ~ 4900 7000
+Wire Wire Line
+	5250 7000 4800 7000
+Wire Wire Line
+	4800 7000 4800 6800
+Wire Wire Line
+	5000 7150 5000 6800
+Wire Wire Line
+	1100 6250 1100 6050
 Wire Wire Line
 	3800 1850 3800 2050
 Wire Wire Line
@@ -39,8 +52,6 @@ Wire Wire Line
 	10500 5400 9500 5400
 Wire Wire Line
 	10500 5150 10500 5300
-Wire Wire Line
-	9500 3200 10450 3200
 Wire Wire Line
 	3500 3650 3250 3650
 Wire Wire Line
@@ -99,8 +110,6 @@ Wire Wire Line
 	8900 2700 8600 2700
 Wire Wire Line
 	1600 3200 1600 3500
-Wire Wire Line
-	1100 6050 1100 6200
 Connection ~ 2250 7000
 Wire Wire Line
 	1700 7000 2650 7000
@@ -176,11 +185,6 @@ Wire Wire Line
 	4850 2550 4850 2200
 Wire Wire Line
 	4900 1150 4900 2200
-Connection ~ 4900 6900
-Wire Wire Line
-	4800 6800 4800 6900
-Wire Wire Line
-	5000 7000 5000 6800
 Connection ~ 2000 1750
 Connection ~ 1600 2550
 Wire Wire Line
@@ -196,13 +200,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 2550 1600 2700
 Connection ~ 1150 1750
-Wire Wire Line
-	4900 6800 4900 6900
-Connection ~ 5000 6900
-Wire Wire Line
-	5250 6700 5250 6900
-Wire Wire Line
-	5250 6900 4800 6900
 Wire Wire Line
 	4850 2200 4950 2200
 Wire Wire Line
@@ -277,8 +274,6 @@ Wire Wire Line
 	2650 6600 2650 6450
 Connection ~ 2650 6450
 Wire Wire Line
-	2250 7000 2250 7250
-Wire Wire Line
 	3500 6350 2700 6350
 Wire Wire Line
 	2700 6350 2700 5550
@@ -348,8 +343,6 @@ Wire Wire Line
 Wire Wire Line
 	8900 5500 8600 5500
 Wire Wire Line
-	10450 3200 10450 3300
-Wire Wire Line
 	9500 4000 9800 4000
 Wire Wire Line
 	9500 3300 9800 3300
@@ -382,11 +375,54 @@ Wire Wire Line
 	4100 1350 3800 1350
 Wire Wire Line
 	3800 1350 3800 1450
+Wire Wire Line
+	2250 7350 2250 7000
+Wire Wire Line
+	4900 7000 4900 6800
+Wire Wire Line
+	5250 7400 5250 6700
+Connection ~ 5250 7000
 $Comp
-L GND #PWR01
+L AGND #PWR01
+U 1 1 4C3A452D
+P 10450 3350
+F 0 "#PWR01" H 10450 3350 40  0001 C CNN
+F 1 "AGND" H 10450 3280 50  0000 C CNN
+	1    10450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR02
+U 1 1 4C3A44F4
+P 5000 7150
+F 0 "#PWR02" H 5000 7150 40  0001 C CNN
+F 1 "AGND" H 5000 7080 50  0000 C CNN
+	1    5000 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR03
+U 1 1 4C3A44D6
+P 2250 7350
+F 0 "#PWR03" H 2250 7350 40  0001 C CNN
+F 1 "AGND" H 2250 7280 50  0000 C CNN
+	1    2250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR04
+U 1 1 4C3A44D4
+P 1100 6250
+F 0 "#PWR04" H 1100 6250 40  0001 C CNN
+F 1 "AGND" H 1100 6180 50  0000 C CNN
+	1    1100 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
 U 1 1 4C3763D2
 P 3800 2050
-F 0 "#PWR01" H 3800 2050 30  0001 C CNN
+F 0 "#PWR05" H 3800 2050 30  0001 C CNN
 F 1 "GND" H 3800 1980 30  0001 C CNN
 	1    3800 2050
 	1    0    0    -1  
@@ -416,10 +452,10 @@ VBUS
 Text Label 9800 3500 0    60   ~ 0
 PE7
 $Comp
-L GND #PWR02
+L GND #PWR06
 U 1 1 4C368791
 P 10450 4050
-F 0 "#PWR02" H 10450 4050 30  0001 C CNN
+F 0 "#PWR06" H 10450 4050 30  0001 C CNN
 F 1 "GND" H 10450 3980 30  0001 C CNN
 	1    10450 4050
 	1    0    0    -1  
@@ -427,10 +463,10 @@ $EndComp
 Text Label 9800 4300 0    60   ~ 0
 PB1
 $Comp
-L GND #PWR03
+L GND #PWR07
 U 1 1 4C365E7A
 P 6600 2100
-F 0 "#PWR03" H 6600 2100 30  0001 C CNN
+F 0 "#PWR07" H 6600 2100 30  0001 C CNN
 F 1 "GND" H 6600 2030 30  0001 C CNN
 	1    6600 2100
 	1    0    0    -1  
@@ -450,46 +486,46 @@ Kmarq B 1100 5650 "Warning Pin passive not driven (Net 30)" F=1
 Kmarq B 3500 3950 "Warning Pin power_in not driven (Net 15)" F=1
 Kmarq B 5500 1200 "Warning: Pin power_out connected to Pin BiDi (net 1)" F=1
 $Comp
-L PWR_FLAG #FLG04
+L PWR_FLAG #FLG08
 U 1 1 4C352F78
 P 5500 1200
-F 0 "#FLG04" H 5500 1470 30  0001 C CNN
+F 0 "#FLG08" H 5500 1470 30  0001 C CNN
 F 1 "PWR_FLAG" H 5500 1430 30  0000 C CNN
 	1    5500 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR05
+L VCC #PWR09
 U 1 1 4C352D5A
 P 7800 3000
-F 0 "#PWR05" H 7800 3100 30  0001 C CNN
+F 0 "#PWR09" H 7800 3100 30  0001 C CNN
 F 1 "VCC" H 7800 3100 30  0000 C CNN
 	1    7800 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND #PWR010
 U 1 1 4C352CA1
 P 7800 2750
-F 0 "#PWR06" H 7800 2750 30  0001 C CNN
+F 0 "#PWR010" H 7800 2750 30  0001 C CNN
 F 1 "GND" H 7800 2680 30  0001 C CNN
 	1    7800 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L GND #PWR011
 U 1 1 4C352C89
 P 10500 5600
-F 0 "#PWR07" H 10500 5600 30  0001 C CNN
+F 0 "#PWR011" H 10500 5600 30  0001 C CNN
 F 1 "GND" H 10500 5530 30  0001 C CNN
 	1    10500 5600
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR08
+L VCC #PWR012
 U 1 1 4C352C66
 P 10500 5150
-F 0 "#PWR08" H 10500 5250 30  0001 C CNN
+F 0 "#PWR012" H 10500 5250 30  0001 C CNN
 F 1 "VCC" H 10500 5250 30  0000 C CNN
 	1    10500 5150
 	1    0    0    -1  
@@ -580,15 +616,6 @@ Text Label 9800 4200 0    60   ~ 0
 PB0
 Text Label 3250 3650 2    60   ~ 0
 VBUS
-$Comp
-L GND #PWR09
-U 1 1 4C35275D
-P 10450 3300
-F 0 "#PWR09" H 10450 3300 30  0001 C CNN
-F 1 "GND" H 10450 3230 30  0001 C CNN
-	1    10450 3300
-	1    0    0    -1  
-$EndComp
 Text Label 9800 3700 0    60   ~ 0
 D-
 Text Label 9800 3600 0    60   ~ 0
@@ -610,30 +637,12 @@ UVCC
 Text Label 1700 6200 0    60   ~ 0
 AVCC
 $Comp
-L GND #PWR010
+L GND #PWR013
 U 1 1 4C35226B
 P 2250 5050
-F 0 "#PWR010" H 2250 5050 30  0001 C CNN
+F 0 "#PWR013" H 2250 5050 30  0001 C CNN
 F 1 "GND" H 2250 4980 30  0001 C CNN
 	1    2250 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR011
-U 1 1 4C351C05
-P 1100 6200
-F 0 "#PWR011" H 1100 6200 30  0001 C CNN
-F 1 "GND" H 1100 6130 30  0001 C CNN
-	1    1100 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR012
-U 1 1 4C351BBF
-P 2250 7250
-F 0 "#PWR012" H 2250 7250 30  0001 C CNN
-F 1 "GND" H 2250 7180 30  0001 C CNN
-	1    2250 7250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -769,10 +778,10 @@ PB6
 Text Label 3200 4550 2    60   ~ 0
 PB7
 $Comp
-L GND #PWR013
+L GND #PWR014
 U 1 1 4C350EC6
 P 1600 4250
-F 0 "#PWR013" H 1600 4250 30  0001 C CNN
+F 0 "#PWR014" H 1600 4250 30  0001 C CNN
 F 1 "GND" H 1600 4180 30  0001 C CNN
 	1    1600 4250
 	1    0    0    -1  
@@ -802,28 +811,28 @@ D-
 Text Label 3200 2900 2    60   ~ 0
 RST
 $Comp
-L GND #PWR014
+L GND #PWR015
 U 1 1 4C3507DF
 P 6150 2100
-F 0 "#PWR014" H 6150 2100 30  0001 C CNN
+F 0 "#PWR015" H 6150 2100 30  0001 C CNN
 F 1 "GND" H 6150 2030 30  0001 C CNN
 	1    6150 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L GND #PWR016
 U 1 1 4C3507DC
 P 5700 2100
-F 0 "#PWR015" H 5700 2100 30  0001 C CNN
+F 0 "#PWR016" H 5700 2100 30  0001 C CNN
 F 1 "GND" H 5700 2030 30  0001 C CNN
 	1    5700 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L GND #PWR017
 U 1 1 4C3507DA
 P 5250 2100
-F 0 "#PWR016" H 5250 2100 30  0001 C CNN
+F 0 "#PWR017" H 5250 2100 30  0001 C CNN
 F 1 "GND" H 5250 2030 30  0001 C CNN
 	1    5250 2100
 	1    0    0    -1  
@@ -856,28 +865,28 @@ F 1 "0.1uF" H 5300 1650 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR017
+L VCC #PWR018
 U 1 1 4C350782
 P 4900 1150
-F 0 "#PWR017" H 4900 1250 30  0001 C CNN
+F 0 "#PWR018" H 4900 1250 30  0001 C CNN
 F 1 "VCC" H 4900 1250 30  0000 C CNN
 	1    4900 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L GND #PWR019
 U 1 1 4C3506E5
-P 5000 7000
-F 0 "#PWR018" H 5000 7000 30  0001 C CNN
-F 1 "GND" H 5000 6930 30  0001 C CNN
-	1    5000 7000
+P 5250 7400
+F 0 "#PWR019" H 5250 7400 30  0001 C CNN
+F 1 "GND" H 5250 7330 30  0001 C CNN
+	1    5250 7400
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L GND #PWR020
 U 1 1 4C35047B
 P 1600 2700
-F 0 "#PWR019" H 1600 2700 30  0001 C CNN
+F 0 "#PWR020" H 1600 2700 30  0001 C CNN
 F 1 "GND" H 1600 2630 30  0001 C CNN
 	1    1600 2700
 	1    0    0    -1  
